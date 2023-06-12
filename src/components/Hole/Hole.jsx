@@ -20,7 +20,6 @@ function Hole(props) {
     getHoles();
   }, [dispatch]);
 
-  // Calculate the total par value
   const totalPar = holeList.reduce((sum, hole) => sum + hole.par, 0);
 
   return (
