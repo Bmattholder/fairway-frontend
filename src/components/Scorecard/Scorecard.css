@@ -1,0 +1,8 @@
+.scorecard {
+    margin: 3rem auto;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: .85rem;
+    box-shadow: 0 0 10px #111;
+    background-color: #444654;
+}

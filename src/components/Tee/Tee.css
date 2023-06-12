@@ -1,0 +1,65 @@
+.tee-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.tee-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.tee-label {
+    min-width: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.tee-name {
+    min-width: 200px;
+    max-width: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: royalblue;
+    color: white;
+    flex: 0 0 60px;
+}
+
+
+.yardage-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 60px;
+    height: 40px;
+    background-color: lightblue;
+    flex: 1;
+}
+
+.tee-name.tee-2 {
+    background-color: white;
+    color: black;
+}
+
+.yardage-number.tee-2 {
+    background-color: #f2f2f2;
+}
+
+.tee-name.tee-3 {
+    background-color: red;
+    color: white;
+}
+
+.yardage-number.tee-3 {
+    background-color: #fbb5b5;
+}
+
+

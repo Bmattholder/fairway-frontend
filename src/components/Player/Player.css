@@ -1,0 +1,215 @@
+.players-container {
+    background-color: #444654;
+    margin: .25rem 1.25rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.player-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.player-name-container {
+    border: 1px solid black;
+    height: 40px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #d7d6d6;
+    flex: 0 0 60px;
+}
+
+.player-name-container input {
+    border: 1px solid black;
+    height: 16px;
+    width: 100px;
+    font-weight: bold;
+    background-color: #d7d6d6;
+    flex: 0 0 60px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+
+.player-name-container input::placeholder {
+    font-size: 16px;
+    color: #555;
+}
+
+.player-name-container input:focus {
+    outline: none;
+    border-bottom:2px solid black;
+}
+
+.scores-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    overflow-x: auto;
+}
+
+.score-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 40px;
+    background-color: white;
+    flex: 1;
+    cursor: pointer;
+}
+
+.score-item input[type="number"]::-webkit-inner-spin-button,
+.score-item input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.score-item input:focus {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    border-bottom: 2px solid black;
+}
+
+.add-player {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.add-player input {
+    margin-right: 0.5rem;
+    font-size: 14px;
+    color: #333;
+    padding: 2px 4px;
+}
+
+.add-player input::placeholder {
+    font-size: 16px;
+    color: #555;
+}
+
+.add-button {
+    background-color: #3fae49;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 80px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.delete-button {
+    margin-right: .25rem;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #a20000;
+    cursor: pointer;
+}
+
+.save-edit-name-button {
+    background-color: #3fae49;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 3px;
+    margin-top: 1px;
+}
+
+.lowest-score {
+    background-color: #3fae49;
+    border: 1px solid black;
+    color: white;
+}
+
+.number-edit {
+    width: 20px;
+    margin-left: 2px;
+    text-decoration: none;
+}
+
+.check-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.add-player-button {
+    background-color: #3fae49;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 80px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 0.5rem;
+}
+
+.cancel-add-player {
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+    width: 80px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.player-name-input {
+    border: 1px solid black;
+    height: 32px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #d7d6d6;
+    flex: 0 0 60px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.player-name-input:focus {
+    outline: none;
+}
+
+.buttons-container {
+    display: flex;
+    margin-left: 8px;
+}
+
+.editable-name {
+    cursor: pointer;
+}
+
+.edit-score-form {
+    display: flex;
+}

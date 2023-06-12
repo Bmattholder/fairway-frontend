@@ -1,0 +1,13 @@
+.course-container {
+    margin-top: 0;
+    background-color: #444654;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-top-left-radius: .85rem;
+    border-top-right-radius: .85rem;
+    border-bottom: 1px solid black;
+}

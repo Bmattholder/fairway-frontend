@@ -1,0 +1,55 @@
+.hole-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0 20px;
+    background-color: #cdebd4;
+}
+
+.par-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0 20px;
+    background-color: #f2e5c4;
+}
+
+.hole-label {
+    min-width: 200px;
+    max-width: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50;
+}
+
+.par-label {
+    min-width: 200px;
+    max-width: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc107;
+}
+
+.label {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.number-container,
+.par-number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.number-container:last-child,
+.par-number-container:last-child {
+    margin-right: 0;
+}
